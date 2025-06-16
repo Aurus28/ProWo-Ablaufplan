@@ -1,0 +1,171 @@
+/* Hardcore reset */
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(254,250,224);
+    box-sizing: border-box;
+}
+
+.monoton-regular {
+  font-family: "Monoton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+/* Oberer teil ordnen und farben machen*/
+#welcomeHead{
+    height: 175px;
+    padding: 2em;
+    margin: 3em;
+    border-radius: 0.75em;
+    text-align: center;
+}
+
+#welcomeHead,
+#HÜbersicht,
+#ulÜbersicht li{
+    background-color: rgb(255, 179, 193);
+    color: rgb(52,58,64);
+}
+
+#HÜbersicht{
+    padding-bottom: 1em;
+}
+
+#ulÜbersicht{
+    background-color: rgb(255, 179, 193);
+}
+
+#ulÜbersicht li{
+    display: inline;
+    padding: 0 2em 0 2em;
+}
+/* Liste reset */
+li{
+    list-style-type: none;
+    padding-top: 2em;
+}
+
+/* Maße um Ole und Tobi vorzustellen */
+.Vorstellung{
+    height: 250px;
+    padding: 2em;
+    margin: 0 3em 0 3em;
+    border-radius: 0.75em;
+}
+
+/* Damit alle Boxen die gleiche Maße haben */
+.boxDay{
+    height: 380px;
+    padding: 2em;
+    margin: 3em;
+    border-radius: 0.75em;
+}
+
+/* Die Hintergrundfarben von den ganzen Boxen und die Farbe der Schrift*/
+#first,
+#D1H,
+#ulD1 li{
+    background-color: rgb(60,79,118);
+    color: rgb(233,236,239);
+}
+
+#second,
+#D2H,
+#ulD2 li{
+    background-color: rgb(244,185,178);
+    color: rgb(52,58,64);
+}
+
+#third,
+#D3H,
+#ulD3 li{
+    background-color: rgb(218,237,189);
+    color: rgb(52,58,64);
+}
+
+#fourth,
+#D4H,
+#ulD4 li{
+    background-color: rgb(125,187,195);
+    color: rgb(52,58,64);
+}
+
+#fift,
+#D5H,
+#ulD5 li{
+    background-color: rgb(222,107,72);
+    color: rgb(52,58,64);
+}
+
+#sonst,
+#SH,
+dl,
+dt,
+dd,
+a{
+    background-color: rgb(163,177,138);
+}
+
+#Vor1,
+#Vor2,
+#HV1,
+#HV2,
+#ulV1 li,
+#ulV2 li{
+    background-color: rgb(187,148,87);
+    color: rgb(52,58,64);
+}
+
+/* Anordnung der H und Ul in die mitte  */
+#D1H,
+#ulD1 li{
+    text-align: center;
+}
+
+#D2H,
+#ulD2 li{
+    text-align: center;
+}
+
+#D3H,
+#ulD3 li{
+    text-align: center;
+}
+
+#D4H,
+#ulD4 li{
+    text-align: center;
+}
+
+#D5H,
+#ulD5 li{
+    text-align: center;
+}
+
+#sonst,
+#SH{
+    text-align: center;
+}
+
+dd{
+    padding-top: 2em;
+}
+
+dl{
+    padding-top: 2em;
+}
+
+dt{
+    padding-top: 2em;
+}
+
+.container{
+    display: flex;
+}
+
+#Vor1,
+#Vor2{
+    width: 50%;
+}
